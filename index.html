@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samarth Kharade | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+  <!-- Locomotive Scroll -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="bgCanvas"></canvas>
+
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="preloader-content">
+      <h1 class="preloader-logo">Samarth Kharade</h1>
+      <div class="progress-container">
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+  </div>
+
+  <div data-scroll-container>
+    <!-- Hero Section -->
+    <section class="hero" data-scroll-section>
+      <div class="hero-content">
+        <h1>Hi, I’m <span>Samarth Kharade</span>  </h1>
+        <h2>Python Developer | Software Developer </h2>
+        <p>Building innovative and scalable digital solutions.</p>
+        <a href="mailto:samarthkharade15@gmail.com" class="btn">Hire Me</a>
+      </div>
+      <div class="hero-3d">
+        <iframe src="https://my.spline.design/genkubgreetingrobot-25mY0mbCN7jSwPNannuin3Zu/"
+                frameborder="0"></iframe>
+		<div class="spline-overlay"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" data-scroll-section>
+      <div class="about-image">
+        <img src="samarthkharade profile.png" alt="Samarth Kharade" />
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+        I'm <strong>Samarth Kharade</strong>, a Computer Science graduate passionate about creating seamless, intelligent digital experiences. Experienced in IT Support, scripting and automation fundamentals.
+      </p>
+       <div class="skills-wheel-wrapper">
+  <div class="skills-wheel">
+    <div class="skill-item">HTML</div>
+    <div class="skill-item">JavaScript</div>
+    <div class="skill-item">Python</div>
+    <div class="skill-item">Java</div>
+    <div class="skill-item">C++</div>
+    <div class="skill-item">Network Troubleshooting</div>
+    <div class="skill-item">MS Office</div>
+  </div>
+</div>
+
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects" data-scroll-section>
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="AI voice.png" alt="AI Voice Assistant">
+          <h3>AI Voice Assistant</h3>
+          <p>Python-based assistant capable of answering queries and executing commands.</p>
+        </div>
+        <div class="project-card">
+          <img src="lock.png" alt="Digital Door Lock">
+          <h3>Digital Door Lock</h3>
+          <p>Keypad-based smart lock using Arduino and Embedded C++ with LCD and security features.</p>
+        </div>
+        <div class="project-card"><img src="project-4.png" alt=""><h3>Project 3</h3></div>
+        <div class="project-card"><img src="project-5.png" alt=""><h3>Project 4</h3></div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact" data-scroll-section>
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/samarth-kharade-6b901331b/" target="_blank">LinkedIn</a>
+        <a href="mailto:samarthkharade15@gmail.com">Email</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer data-scroll-section>
+      <p>© 2025 Samarth Kharade.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
